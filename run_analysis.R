@@ -82,4 +82,8 @@ colnames(TidyData)[3]<-"ActivityTypeName"
 
 #create output file
 setwd(directory)
+<<<<<<< HEAD
 write.table(TidyData, "SamsungTidyData.txt", sep="\t") 
+=======
+write.csv(TidyData,file="SamsungTidyData.csv")
+>>>>>>> 6a26a00727bed7840cc05be0da8145b7cb40fbca
